@@ -17,7 +17,7 @@ const Highlights = () => {
             duration: 1,
             ease: 'power1.inOut'
         });
-    })
+    }, [])
 
     return (
         <section id="highlights">
